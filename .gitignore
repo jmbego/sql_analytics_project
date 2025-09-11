@@ -1,0 +1,14 @@
+# Ignore the entire data directory and any database files
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Python virtual environments and compiled files
+__pycache__/
+*.pyc
+venv/
