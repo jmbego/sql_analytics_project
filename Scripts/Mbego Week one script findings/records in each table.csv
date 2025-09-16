@@ -1,0 +1,8 @@
+table_name,record_count
+users,100000
+products,29120
+orders,125226
+order_items,181759
+events,2431963
+inventory_items,490705
+distribution_centers,10
