@@ -98,7 +98,7 @@ FROM orders
 GROUP BY order_month 
 ORDER BY order_month;
 
--- 4.3 Average order value by status
+-- 4.3 Average order value by status (debug error in this)
 SELECT 
     status,
     COUNT(*) as order_count,
@@ -131,7 +131,7 @@ ORDER BY total_value DESC;
 
 -- 6. BASIC SALES METRICS
 
--- 6.1 Total sales revenue
+-- 6.1 Total sales revenue (debug querie)
 SELECT 
     ROUND(SUM(oi.sale_price), 2) as total_revenue
 FROM order_items oi
@@ -169,7 +169,7 @@ FROM events e
 JOIN users u ON e.user_id = u.id
 GROUP BY u.id, user_name
 ORDER BY event_count DESC
-LIMIT 20;
+LIMIT 5;
 
 -- 8. DATA QUALITY CHECKS
 
@@ -240,6 +240,3 @@ SELECT
     COUNT(*) as user_count
 FROM users 
 GROUP BY gender, age_group;
-
--- Print completion message
-SELECT 'Week 1 Basic Queries Completed Successfully!' as status;
