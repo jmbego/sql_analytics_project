@@ -1,0 +1,19 @@
+
+
+Business Questions & Query Guidelines
+
+1. Customer Segmentation Analysis
+Business Question: Who are our most valuable customer segments by demographic and geographic factors?
+
+2. Product Performance Analysis
+Business Question: Which products and categories drive the most revenue and have the best inventory turnover?
+
+3. Sales Channel Effectiveness
+Business Question: Which traffic sources and geographic regions drive the most valuable customers?
+
+4. Customer Behavior Analysis
+Business Question: How do customer engagement patterns correlate with purchasing behavior?
+
+5. Time-Based Sales Analysis
+Business Question: How do sales patterns vary by time periods and seasons?
+ 
