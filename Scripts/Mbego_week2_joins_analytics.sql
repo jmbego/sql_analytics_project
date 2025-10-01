@@ -1,3 +1,7 @@
+
+
+--------------------------------Customer Segmentation Analysis-----------------
+
 -- Q 1.1: Customer Value by Demographic
 SELECT 
     u.gender,
@@ -33,6 +37,9 @@ GROUP BY u.state, u.country
 ORDER BY total_revenue DESC
 LIMIT 15;
 
+
+--------------------------Product Performance Analysis-----------------------
+
 -- Q 2.1 Product Category Performance
 SELECT 
     p.category,
@@ -67,6 +74,8 @@ ORDER BY total_revenue DESC
 LIMIT 20;
 
 
+-------------------------------------Sales Channel Effectiveness-------------------
+
 -- Q 3.1 Traffic Source Performance
 SELECT 
     u.traffic_source,
@@ -96,6 +105,11 @@ JOIN orders o ON oi.order_id = o.order_id
 WHERE o.status NOT IN ('Cancelled', 'Returned')
 GROUP BY dc.id, dc.name, dc.latitude, dc.longitude
 ORDER BY total_revenue DESC;
+
+
+
+
+-----------------------------------------Customer Behavior Analysis-----------------
 
 -- Query 4.1: Customer Engagement vs Purchasing
 SELECT 
